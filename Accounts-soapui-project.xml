@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="Accounts" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" id="e27a2d95-374a-4a0d-a49b-cf10768e907e" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="Context Instance Resource" type="rest" id="243748f8-ea78-4010-95a8-516ab0d997fe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#server}</con:endpoint></con:endpoints><con:resource name="Context" path="/v1/context/hp/sf" id="082b4106-1096-4330-8b97-0de6d3ec8719"><con:settings/><con:parameters/><con:method name="Context(/v1/context/hp/sf)[L2]" method="GET" id="05c8d568-7e3a-4ecc-99f6-ca2434c3c643"><con:settings/><con:parameters/><con:request name="Get /v1/context/hp/sf" mediaType="application/json" id="a60126f1-0569-41cd-b0cc-f3a3588d0150"><con:settings/><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp" id="c69c1cb7-7451-4a32-93a2-b0910bd853a8"><con:settings/><con:parameters/><con:method name="Context(/v1/context/hp)[L1]" method="GET" id="f55fb233-472f-403f-b71f-06c3383cac08"><con:settings/><con:parameters/><con:request name="Get /v1/context/hp" mediaType="application/json" id="afd1e3e7-c6b4-4732-a733-61f890599e86"><con:settings/><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp/sf/sf-us" id="40ec34e4-d4aa-42e3-a423-c32186a9af22"><con:settings/><con:parameters/><con:method name="Context(/v1/hp/sf/sf-us)[L3]" method="GET" id="843e1949-4481-4ca6-b736-7e929ca02726"><con:settings/><con:parameters/><con:request name="Get /v1/context/hp/sf/sf-us" mediaType="application/json" id="51c0ff2d-84ed-4a01-88be-7b50529743a9"><con:settings/><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp/sf/sf-us/snapfish-us" id="dffc2eaf-f82c-4dd8-9305-a86df48cadd2"><con:settings/><con:parameters/><con:method name="Context(/v1/context/hp/sf/sf-us/snapfish-us)[L4]" method="GET" id="c1b13d5f-5814-47ad-b616-eeb09745f966"><con:settings/><con:parameters/><con:request name="Get /v1/context/hp/sf/sf-us/snapfish-us" mediaType="application/json" id="08ac4180-a62b-40a2-bba4-484b35ef8e3d"><con:settings/><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/" id="ae848a08-9934-4d7c-9863-7a628ba13277"><con:settings/><con:parameters/><con:method name="Method 1" method="GET" id="03f72c14-bae1-4f20-b0d5-9ec95251bebc"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:con1="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/">con1:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:hp="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/">hp:Fault</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="3e511f43-bb33-41e4-96d8-67beda9f9ce6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry/></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp/" id="8bfd35f8-6d82-4028-9281-b4b13601df9c"><con:settings/><con:parameters/><con:method name="Method 1" method="GET" id="22518139-79ad-4903-b45c-aae981b3511b"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:hp="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/">hp:Fault</con:element></con:representation><con:request name="/v1/context/hp/" mediaType="application/json" id="0e47b33e-5866-42db-83d7-6d4d1f18030d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp/sf/" id="f99532eb-985d-4ec3-82e3-675be75fa0b5"><con:settings/><con:parameters/><con:method name="Method 1" method="GET" id="504b4e1f-917b-4475-a8c2-97b9ee81f6d3"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:sf="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/">sf:Fault</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="0f2dca35-cc24-44fd-b672-346a35859b36"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp/sf/sf-us/" id="15bba380-f2e3-4dcf-bc03-a311583b4f9d"><con:settings/><con:parameters/><con:method name="Method 1" method="GET" id="acdbd901-04ef-4f9d-b56b-4676737e96de"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:sf="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us">sf:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:sf="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us">sf:Fault</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="db78d494-f050-4b47-967e-749d8e78dcb6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Context" path="/v1/context/hp/sf/sf-us/snapfish-us/" id="b865ae2d-5ac7-47b2-a9aa-01d9d6557c86"><con:settings/><con:parameters/><con:method name="Method 1" method="GET" id="6ac4be74-8eec-4e6b-92da-e8e2d187e856"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:snap="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us/snapfish-us/">snap:Fault</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="f9efafa7-1848-4eae-b7b6-1e78e1c63af5"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us/snapfish-us/</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="OAuth(/v1/oauth2?)" type="rest" id="9e3afbc8-6b98-4e7b-9431-301925a6dd28" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#server}</con:endpoint></con:endpoints><con:resource name="OAuth Generation" path="/v1/oauth2?" id="ca46ef65-6dc5-4344-aecf-29f5fa41c052"><con:settings/><con:parameters><con:parameter><con:name>grant_type</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>client_id</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter required="false"><con:name>client_secret</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>context</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Content-Type</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>username</con:name><con:style>QUERY</con:style></con:parameter><con:parameter><con:name>password</con:name><con:style>QUERY</con:style></con:parameter></con:parameters><con:method name="OAuth Generation" method="POST" id="942ded51-9afe-43d2-af0b-be43405238d1"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:oaut="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2">oaut:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:oaut="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2">oaut:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:oaut="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2">oaut:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500 400</con:status><con:params/><con:element xmlns:oaut="http://qa-oauth-service-2.tnt3-zone1.sfo1/v1/oauth2">oaut:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="ClientCredentials" mediaType="application/x-www-form-urlencoded" postQueryString="true" id="165b448e-2a2d-47a0-b7d3-721e4d101f82"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint xsi:nil="true"/><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="${#Project#grant_type}"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="client_id" value="${#Project#client_id}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry></con:parameterOrder></con:request><con:request name="PasswordToken" id="d22f756f-23f2-4654-b774-af1da60ef3ea" mediaType="application/json" postQueryString="false"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="username" value="${#Project#primaryEmail}"/>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="password"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="client_id" value="${#Project#client_id}"/>
+  <con:entry key="password" value="${#Project#password}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry><con:entry>username</con:entry><con:entry/></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="Context Collection Resource" type="rest" id="3136aa87-67fb-47e5-9882-fb51d41c7d3a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#server}</con:endpoint></con:endpoints><con:resource name="Context Collection" path="/v1/context" id="65ed496c-ab97-468c-8126-21210eaa2995"><con:settings/><con:parameters><con:parameter><con:name>Authorization</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Accept</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Content-Type</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>context</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>_id</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>ldapAlias</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>legacyCobrandOid</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>legacyWebsiteOid</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>legacyWebsiteName</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>legacyCobrandName</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Context Collection" method="GET" id="ed648441-277e-4d68-8572-1c3fedf66ac2"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401 400</con:status><con:params/><con:element xmlns:con1="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context">con1:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:con1="http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context">con1:Response</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="b6b45567-2832-4ebf-ba94-6383f5083b84"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="a5b95d64-a7e0-4382-adb6-5138d60118e9" wadlVersion="http://wadl.dev.java.net/2009/02" name="Registration" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#serveraccounts}</con:endpoint></con:endpoints><con:resource name="Account" path="/v1/account" id="12585296-3b12-4e95-9a8d-5335e60d7929"><con:settings/><con:parameters/><con:method name="Account" id="87b77b41-4475-458d-a6df-25cc46ea2893" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:acc="http://qa-oauth-service-2.tnt3-zone1.sfo1/v1/account">acc:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="0e7d4c62-0a7b-41fa-89ed-2f008a8110dc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  &lt;con:entry key="Content-Type" value="application/json"/>
+  &lt;con:entry key="Accept" value="application/json"/>
+&lt;/xml-fragment></con:setting></con:settings><con:request>{
+  "password" : "password",
+  "globalInfo" : {
+    "core" : {
+        "firstName" : "Krishnam",
+        "lastName" : "Madduri",
+         "countryCode" : "CA",
+        "primaryEmail" : "krishnam.soap@yopmail.com"
+    }
+  }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="cc221dbb-3284-4d92-94df-d72bc19033be" wadlVersion="http://wadl.dev.java.net/2009/02" name="Accounts" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="GET account" path="/v1/account/{accountId}" id="e9fe4773-0f26-443e-a85b-aee6c07458bc"><con:settings/><con:parameters><con:parameter><con:name>Accept</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>accountId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:method name="GET account" id="c6725676-00ec-4e92-94ce-2cb6b37121da" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1725904050">ns:Response</con:element></con:representation><con:request name="Request 1" id="9d51ed8a-aedb-438b-9f6f-f961597bf6a8" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Accept</con:entry><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Update Account" path="/v1/account/{accountId}" id="f67c36ea-4e4d-474a-bffa-a83e688e9463"><con:settings/><con:parameters><con:parameter><con:name>Accept</con:name><con:value>application/json</con:value><con:style>HEADER</con:style><con:default>application/json</con:default><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Content-Type</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>accountId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:method name="Method 1" id="06d9254b-3f65-4586-bf51-d3624017008a" method="PUT"><con:settings/><con:parameters/><con:request name="Request 1" id="63ccc2f3-1923-48ab-a9e7-fdcbde209fc8" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{
+  "password" : "password",
+  "globalInfo" : {
+    "core" : {
+        "firstName" : "Krishnam",
+        "lastName" : "Raju",
+         "countryCode" : "CA",
+        "primaryEmail" : "krishnam@yopmail.com"
+    }
+  }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Content-Type" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="POST updatePassword" path="/v1/updatePassword" id="52fa5919-d08f-478a-93ae-ffe9de18a58b"><con:settings/><con:parameters/><con:method name="UpdatePassword" id="9c877bd5-84ce-4ec1-92bf-84f4093b45c2" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:upd="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/updatePassword">upd:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="3be5fc0f-70e7-4048-b499-1b11c70cb030" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{ 
+
+     "currentPassword" : "password",
+     "updatePassword" : "mypassword"
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="POST forgotPassword(web)" path="/v1/forgotPassword" id="6445b2f7-481d-46e3-ab25-d8721e5ee3db"><con:settings/><con:parameters/><con:method name="Web" id="068bae75-acc4-4d2a-b3b8-4f411475e601" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="7fa6df03-9d46-4296-b048-ab44ee0b0b0e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{
+  "email" : "sf.us1_stg765788@yopmail.com",
+  "resetUrl" : "http://store.snapfish.com/resetUrl/",
+  "metaData" : {
+    "L4DisplayName" : "snapfish"
+  }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="POST forgotPassword(app)" path="/v1/app/forgotPassword" id="6445b2f7-481d-46e3-ab25-d8721e5ee3db"><con:settings/><con:parameters/><con:method name="App" id="068bae75-acc4-4d2a-b3b8-4f411475e601" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="7fa6df03-9d46-4296-b048-ab44ee0b0b0e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{
+  "email" : "sf.us1_stg765788@yopmail.com",
+  "resetUrl" : "http://store.snapfish.com/resetUrl/",
+  "metaData" : {
+    "L4DisplayName" : "snapfish"
+  }
+}
+</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="7e80f519-aec7-4042-bb2b-2cadc26f3109" wadlVersion="http://wadl.dev.java.net/2009/02" name="Accounts Lookup" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="Account Lookups SFO" path="/v1/lookup/sfo/{accountId}" id="4fec5e78-a0d6-4a44-8646-10d2175d3325"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/></con:parameter></con:parameters><con:method name="Account Lookups" id="524c8905-40bb-4763-bc53-b74ba6cf80ac" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/lookup/sfo/1725914050">ns:Response</con:element></con:representation><con:request name="Request 1" id="711c9960-b765-4616-b006-cab49f749b38" mediaType="application/json"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Account Lookups AUS" path="/v1/lookup/aus/{accountId}" id="4fec5e78-a0d6-4a44-8646-10d2175d3325"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/></con:parameter></con:parameters><con:method name="Account Lookups" id="524c8905-40bb-4763-bc53-b74ba6cf80ac" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/lookup/sfo/1725914050">ns:Response</con:element></con:representation><con:request name="Request 1" id="711c9960-b765-4616-b006-cab49f749b38" mediaType="application/json"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="0c1807de-5973-42b8-a62f-0dd19a78a858" wadlVersion="http://wadl.dev.java.net/2009/02" name="Address" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="POST Address" path="/v1/account/{accountId}/address" id="291adbf4-c174-4939-a95e-8547afc08b38"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:resource name="Replace Address" path="{addressId}/replace" id="31af689a-9b46-4fed-883d-a3f1f38fb492"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>addressId</con:name><con:value>addressId</con:value><con:style>TEMPLATE</con:style><con:default>addressId</con:default></con:parameter></con:parameters><con:method name="Method 1" id="e73ff31f-1116-4008-a5d2-9226022b1bc5" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>201</con:status><con:params/><con:element xmlns:rep="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050/replace">rep:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="27603e36-ee5b-4569-b6a5-8af300700e16" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{
+  "companyName": "testAnotherCompany",
+  "line1": "testLine1",
+  "line2": "testLine2",
+  "line3": "testLine3",
+  "county": "testCounty",
+  "city": "testCity",
+  "state": "testState",
+  "zip": "500005",
+  "country": "US",
+  "firstName": "testFirstName",
+  "lastName": "testLastName",
+  "phones": [
+    "1234567890"
+  ],
+  "ims": [
+    ""
+  ],
+  "emails": [
+    "test.fitnesse@testmail.com",
+    "test.fitnesse@fitnessemail.com"
+  ],
+  "tags": [
+    "testTag1",
+    "testTag2",
+    "testTag3"
+  ]
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="POST Metadata" path="{addressId}/tags/{foo}" id="230c0978-302e-40f1-be09-0e8f7534ab9e"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>addressId</con:name><con:value>addressId</con:value><con:style>TEMPLATE</con:style><con:default>addressId</con:default></con:parameter><con:parameter><con:name>foo</con:name><con:value>foo</con:value><con:style>TEMPLATE</con:style><con:default>foo</con:default></con:parameter></con:parameters><con:method name="Method 1" id="84ff885f-5e32-41de-9344-a598b915106c" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="91f5bf7d-ce06-4bfa-9bf8-38a1e04f40c6" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:method name="POST" id="82b8bee1-be80-4e6b-9857-307f00067bae" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="eb99c274-4846-4050-a0aa-c3dea72e5c06" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{ 
+"companyName" : "testCompany", 
+"line1" : "testStreet", 
+"line2" : "shippingaddr", 
+"county" : "testCounty", 
+"city" : "testCity", 
+"state" : "testState", 
+"zip" : "94107", 
+"country" : "US",
+ "phones" : ["1234567890"],
+ "ims" : [""], 
+"emails" : ["test.fitnesse@fitnessemail.com"],
+ "tags" : ["self"] 
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="GET addressCollection" path="/v1/account/{accountId}/address" id="ecd35a7d-27ea-4b29-adb2-b7a378d1dfdb"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter></con:parameters><con:method name="GET" id="f574c3c8-9ef0-4d94-a3f2-a4a2a904e70a" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:add="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728792050/address">add:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="3d413066-f771-4192-bc4a-3e44ab87ed81" mediaType="application/json"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="GET AddressInstance" path="/v1/account/{accountId}/address/{addressId}" id="f336e2bb-85f1-4aa6-8b48-91a73e7718fc"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>addressId</con:name><con:value>addressId</con:value><con:style>TEMPLATE</con:style><con:default>addressId</con:default></con:parameter></con:parameters><con:method name="Method 1" id="c1b766ed-1856-4dce-9af7-ffe0310318c5" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050">ns:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>410</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050">ns:Fault</con:element></con:representation><con:request name="Request 1" id="73b808b6-c5c6-4854-ab93-4dd6e6638559" mediaType="application/json"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="DELETE" path="/v1/account/{accountId}/address/{addressId}" id="d167d53a-45fe-49d6-89a2-511f9f6279f2"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>addressId</con:name><con:value>addressId</con:value><con:style>TEMPLATE</con:style><con:default>addressId</con:default></con:parameter></con:parameters><con:method name="DELETE address" id="83bebf4f-c921-4b15-9cb9-ddf9ad143f90" method="DELETE"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="09f2b9fd-ecfa-4227-8420-f5722111bc66" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="3de56371-bbdc-4d8f-9181-fb2d58bc06c8" wadlVersion="http://wadl.dev.java.net/2009/02" name="Payments" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="POST Payment" path="/v1/account/{accountId}/payment" id="f9dc67eb-f945-4212-8c8a-eae606d4e0ab"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:resource name="DELETE Metadata" path="{paymentId}/metadata/foo" id="1e032672-025d-4cab-92de-b7c8179063fb"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>paymentId</con:name><con:value>paymentId</con:value><con:style>TEMPLATE</con:style><con:default>paymentId</con:default></con:parameter></con:parameters><con:method name="DELETE Metadata" id="267a21bd-6d84-4f98-bf1e-8f0cdc65ce06" method="DELETE"><con:settings/><con:parameters/><con:request name="Request 1" id="b5604abb-fb99-4772-b2a7-bea558bea6da" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="POST metadata" path="{paymentId}/metadata/foo" id="b6ffbe78-0339-4b28-9fbc-28f5c7c1b32b"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>paymentId</con:name><con:value>paymentId</con:value><con:style>TEMPLATE</con:style><con:default>paymentId</con:default></con:parameter><con:parameter><con:name>value</con:name><con:value>bar </con:value><con:style>QUERY</con:style><con:default>bar </con:default></con:parameter></con:parameters><con:method name="Method 1" id="da3b19cc-a4af-4e5d-b34c-2542391b826d" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:foo="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730700050/payment/449105050/metadata/foo">foo:Response</con:element></con:representation><con:request name="Request 1" id="40d75a47-4e9d-487a-a62a-0e39282a6d1d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:method name="POST Payment" id="ac80c248-2028-429a-b83f-12bc35217cf8" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:pay="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730698050/payment">pay:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>201</con:status><con:params/><con:element xmlns:pay="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730698050/payment">pay:Response</con:element></con:representation><con:request name="Request 1" id="e2e1fc3a-d89a-4bd6-bf4e-8f1df8f4ebbe" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{
+   "accountId" : "546898050",
+   "creditCard" : {
+        "expireYear" : 2020,
+        "expireMonth" : 10,
+        "type" : "VIS",
+        "nameOnCard" : "Fitness Test",
+        "panFirst6" : "411111",
+        "panLast4" : "1111",
+        "panLength" : 16
+    },
+    "tokens" : {
+        "Monolith" : {
+            "processor" : "Monolith",
+            "token" : "test_token"
+        }
+   },
+  "line1" : "line1",
+  "city" : "testCity",
+  "state" : "testState",
+  "zip" : "500005",
+  "country" : "US" 
+</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="GET PaymentCollection" path="/v1/account/{accountId}/payment" id="742da2d4-82e7-4240-9d5e-cab9dc78c947"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter></con:parameters><con:method name="GET PaymentCollection" id="2d22d719-1db6-41a0-98e3-c7d42b6f53c2" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="c60196f0-6617-4048-97f4-15da22c9b270" mediaType="application/json"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="GET PaymentInstanceResource" path="/v1/account/{accountId}/payment/{paymentId}" id="742da2d4-82e7-4240-9d5e-cab9dc78c947"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>paymentId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:method name="GET PaymentInstanceResource" id="2d22d719-1db6-41a0-98e3-c7d42b6f53c2" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730703050/payment/449109050">ns:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>401</con:status><con:params/><con:element xmlns:ns="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730708050/payment/449114050">ns:Fault</con:element></con:representation><con:request name="Request 1" id="c60196f0-6617-4048-97f4-15da22c9b270" mediaType="application/json"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>accountId</con:entry><con:entry>paymentId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="PUT" path="/v1/account/{accountId}/payment/{paymentId}/tokens/Monolith" id="529dea9e-2046-46f8-b5a3-280ada6d23d1"><con:description>Update Tokens</con:description><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>paymentId</con:name><con:value>paymentId</con:value><con:style>TEMPLATE</con:style><con:default>paymentId</con:default></con:parameter></con:parameters><con:method name="UpdateToken" id="422176cb-c460-411a-bcf4-7f067b27895f" method="PUT"><con:settings/><con:parameters/><con:request name="Request 1" id="8fad0f8d-13ad-4ca5-987a-217ea6536020" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{ 
+"processor" : "Monolith",
+ "token" : "updated_token" 
+} 
+</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="DELETE Payment" path="/v1/account/{accountId}/payment/{paymentId}" id="bc048646-dc0c-47af-ac67-59fc05f1c9d0"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default></con:parameter><con:parameter><con:name>paymentId</con:name><con:value>paymentId</con:value><con:style>TEMPLATE</con:style><con:default>paymentId</con:default></con:parameter></con:parameters><con:method name="DELETE Payment" id="c47cde60-c3e2-4bf0-b787-0a3c04c81887" method="DELETE"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="767db3f0-df63-4a70-ac19-a2fad13b1f3b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="POST PaymentPaypal" path="/v1/account/{accountId}/payment" id="f9dc67eb-f945-4212-8c8a-eae606d4e0ab"><con:settings/><con:parameters><con:parameter><con:name>accountId</con:name><con:value>accountId</con:value><con:style>TEMPLATE</con:style><con:default>accountId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="POST PaymentPaypal" id="ac80c248-2028-429a-b83f-12bc35217cf8" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>201</con:status><con:params/><con:element xmlns:pay="http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730708050/payment">pay:Response</con:element></con:representation><con:request name="Request 1" id="e2e1fc3a-d89a-4bd6-bf4e-8f1df8f4ebbe" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>{ 
+"accountId" : "546898050", 
+"paypal" : { 
+   "payerId": "somePayerId",
+    "emailId": "someemail@email.com",
+     "billingAgreementId": "some-agreementId", 
+     "paypalOrderId": "some-orderid", 
+     "isRefTransaction": "0" 
+     },
+  "tokens" : { 
+       "PayPal" : { 
+           "processor" : "PayPal",
+            "token" : "foo"
+            } 
+         }
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="Context Instance TestSuite" id="846d6849-761b-422e-aa0b-32d933fe8d87" disabled="true"><con:description>TestSuite generated for REST Service [Context]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Context TestCase" searchProperties="true" id="6e757160-da31-4922-a921-5cf96416d15b"><con:description>TestCase generated for REST Resource [Context] located at [/v1/context/hp/sf]</con:description><con:settings/><con:testStep type="restrequest" name="GET /v1/context/hp" id="23f4ff67-fb76-4a25-aa6b-8bfb1b3a43d2"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp" methodName="Context(/v1/context/hp)[L1]" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp" mediaType="application/json" id="89042063-3681-40ce-8b91-274a654a8f30"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="e9e26898-4ab8-4ef9-ad9b-f879037ab365"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="7b48882d-8144-4917-bc5f-c62ee27b1f93"><con:configuration><path>declare namespace ns1='http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp';
+//ns1:level</path><content>L1</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/sf" id="eeec1ede-acc0-40b2-afc5-2e1fb4a0cc17"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/sf" methodName="Context(/v1/context/hp/sf)[L2]" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/sf" mediaType="application/json" id="1d06ca5e-ae17-4946-b740-290167d1b6a7"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf</con:originalUri><con:assertion type="XPath Match" name="XPath Match" id="ef048d9c-01c1-4feb-9662-3bb5763c60c2"><con:configuration><path>declare namespace ns1='http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf';
+//ns1:level</path><content>L2</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="721cff5d-a28a-4280-927d-2ed4f38bc920"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/sf"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/sf/sf-us" id="3e82ef08-a5ac-4ba1-bf44-503f5bf56c04"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/sf" methodName="Context(/v1/context/hp/sf)[L2]" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/sf/sf-us" mediaType="application/json" id="8e9ba56b-1412-41a6-8d94-d8d32df4f9b2"><con:settings/><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="38a1a9a4-0468-43a0-beda-83a354b75cdd"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/sf/sf-us"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="4c91319c-61b7-4478-91cd-8432c6ba0c8d"><con:configuration><path>declare namespace ns1='http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf';
+//ns1:level</path><content>L2</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/sf/sf-us/snapfish-us" id="5f593bec-4ba8-4af2-b890-ceb4348a21c3"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/sf/sf-us/snapfish-us" methodName="Context(/v1/context/hp/sf/sf-us/snapfish-us)[L4]" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/sf/sf-us/snapfish-us" mediaType="application/json" id="ce3ba3ab-a9ee-439c-b96c-accf545bae9e"><con:settings/><con:endpoint>http://accounts-sf-qa.tnt3-zone1.sfo1</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us/snapfish-us</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="4eb00a24-dbb0-416f-96a8-ff857a9b7ca9"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/sf/sf-us/snapfish-us"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="eb79b303-9e4e-4d66-8334-bda821ef3a06"><con:configuration><path>declare namespace ns1='http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us/snapfish-us';
+//ns1:level</path><content>L4</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/" id="a76a104e-eed4-4ca8-bede-d93a7805abdc"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/" mediaType="application/json" id="407bc1e8-16c8-4066-b8d7-a3a2a736af3c"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="aa7f2d5e-2356-479f-855e-463c5901a2be"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="d430f704-8cfe-4697-a6b1-cb1cabc99376"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context/';
+//ns1:level</path><content>ROOT</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry/></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/" id="3e449156-3c0d-4e4c-8794-d39419b84c62"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/" mediaType="application/json" id="a62b466c-d2c2-4760-af5f-c8363c346671"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="90cea612-d553-4100-897c-415f348112cc"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 404 Not Found]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="fd0ad725-84fb-4001-9f24-bbb25f045b5e"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context/hp/';
+//ns1:Error/ns1:details/ns1:e/ns1:errorCode</path><content>NotFound</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/sf/sf-us/" id="9b5f4b54-e90f-4eb1-9fcb-7771d5258825"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/sf/sf-us/" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/sf/sf-us/" mediaType="application/json" id="e1544937-6352-44d7-aaf3-9abfa104af83"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="1b73e5df-5846-44bf-9fcf-2baa62760085"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/sf/sf-us/"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 404 Not Found]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="640449c0-7f9b-4430-816f-59c89873fb58"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context/hp/sf/sf-us';
+//ns1:Error/ns1:details/ns1:e/ns1:errorCode</path><content>NotFound</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/sf/" id="e7428826-dfce-4b4c-bb71-c6af42777254"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/sf/" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/sf/" mediaType="application/json" id="16cf3584-45da-454d-85bd-8d04b87e8464"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="ec1812a3-3ecd-47b5-9d38-edf2811c422c"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/sf/"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 404 Not Found]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="66acba82-b560-4b83-bb67-416ed0da4861"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context/hp/sf/';
+//ns1:Error/ns1:details/ns1:e/ns1:errorCode</path><content>NotFound</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context/hp/sf/sf-us/snapfish-us/" id="b88e5d22-c861-449d-8de2-e3c3e9107235"><con:settings/><con:config service="Context Instance Resource" resourcePath="/v1/context/hp/sf/sf-us/snapfish-us/" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context/hp/sf/sf-us/snapfish-us/" mediaType="application/json" id="75c6677b-c7f2-4359-97b6-117639772ec6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context/hp/sf/sf-us/snapfish-us/</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="8bbd6151-b78c-496a-8593-a1964d6153f2"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context/hp/sf/sf-us/snapfish-us/"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 404 Not Found]"
+</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="8070b20c-7a98-4582-8c65-a454a675061b"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context/hp/sf/sf-us/snapfish-us/';
+//ns1:Error/ns1:details/ns1:e/ns1:errorCode</path><content>NotFound</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>#status#</con:name><con:value>[HTTP/1.1 404 Not Found]</con:value></con:property></con:properties></con:testSuite><con:testSuite name="Context Collection Resource" id="de4ad656-0eed-4112-983e-3140382714f4" disabled="true"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Context Collection Resource" searchProperties="true" id="dfb3b83e-5594-4694-ad24-1a76607ca544"><con:settings/><con:testStep type="calltestcase" name="OAuth2" id="c94fac36-ddc2-48a5-b653-884babf005de"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>b3bcc64d-0822-4b97-b2f1-6b675823bc81</con:targetTestCase><con:properties/><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?context=/hp" id="c96aa198-f2f0-4fc1-b1a2-208ff832736e"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?context=/hp" mediaType="application/json" id="9ab5e887-dae8-4830-ac10-1ed5192fb653"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="62eea44e-a6e5-49e0-9f30-5b94cd05f8e2"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?context=/hp"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="context" value="/hp"/>
+  <con:entry key="Content-Type" value="application/json"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" disabled="true" id="da6b43ab-d39b-431c-b65c-e3d1f5c5cd5c"><con:settings/><con:config><script>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+
+//def holder = groovyUtils.getXmlHolder("GET /v1/context?context=/hp#responseAsxml")
+def REST = groovyUtils.getXmlHolder(testRunner.testCase.testSteps["GET /v1/context?context=/hp"].testRequest.getResponseContentAsXml())
+//log.info REST 
+log.info REST.getXml()
+
+for( node in REST['//legacyWebsiteOid[6]'])
+
+{
+
+Log.info node//displays the value of the node
+
+testRunner.testCase.setPropertyValue("legacyWebsiteOid",node)
+
+}</script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script-Extract ldapAlias" id="4c3bf631-a65b-4a54-bf7c-7f73ffd7e4f6"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+def  responseMessage = testRunner.testCase.testSteps["GET /v1/context?context=/hp"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+
+def ldap = json.resources
+def id = json.resources
+def WebsiteName = json.resources
+def WebsiteOid = json.resources
+
+def value = ldap[0].resource.ldapAlias 
+testRunner.testCase.testSuite.project.setPropertyValue("ldapAlias",value)
+
+def value1 = id[0].resource._id 
+testRunner.testCase.testSuite.project.setPropertyValue("_id",value1)
+
+def value2 = WebsiteName[6].resource.legacyWebsiteName
+testRunner.testCase.testSuite.project.setPropertyValue("legacyWebsiteName",value2)
+
+/*def value3 = WebsiteOid[5].resource.legacyWebsiteOid
+testRunner.testCase.testSuite.project.setPropertyValue("legacyWebsiteOid",value3)*?
+
+
+
+/*{
+	if( it.level=="L1" &amp;&amp; it.status == "ACTIVE") {
+		log.info 'using account alias = ' + it.ldapAlias
+		//testRunner.testCase.testSteps["POST p2p"].setPropertyValue("fromAccountAlias", it.alias)
+		testRunner.testCase.testSuite.project.setPropertyValue("ldapAlias",it.ldapAlias)
+	}
+}*/
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?context=/hp/sf" id="99afeab2-9bb1-4195-9064-1f76ec1a9bc9"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?context=/hp/sf" mediaType="application/json" id="418ab0ab-3fdd-4d28-8c74-a7d71448eaf8"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="28b6bd25-dc65-4442-a8a5-eebd98eee7be"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?context=/hp"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="context" value="/hp/sf"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?context=/hp/sf/sf-us" id="5dff5269-a45d-42de-a1a4-4b590ab19f94"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?context=/hp/sf/sf-us" mediaType="application/json" id="22820332-b20e-41a7-89a5-ba780e0b2c5f"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="6d86151d-072b-40e3-981c-2e87b7364875"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?context=/hp/sf/sf-us"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="context" value="/hp/sf/sf-us"/>
+  <con:entry key="Content-Type" value="application/json"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?context=/hp/sf/sf-us/snapfish-us" id="7e0d1b25-cbb8-4012-a1b6-542873049f17"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?context=/hp/sf/sf-us/snapfish-us" mediaType="application/json" id="2f027ff4-8725-4607-8230-072f61c9e044"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="8b4d0531-9202-4847-8a2b-3bba867b9051"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?context=/hp/sf/sf-us/snapfish-us"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="context" value="/hp/sf/sf-us/snapfish-us"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?legacyCobrandOid=abcdef[Bad CobrandOid]" id="ec303e24-6f13-4ad5-a9b2-ebd0b66754ad"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?legacyCobrandOid=abcdef[Bad CobrandOid]" mediaType="application/json" id="1312e083-2577-4c78-be0f-944aaa2ea28d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="4655ad9e-16c9-4ff6-a88c-3f8609a10794"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?legacyCobrandOid=abcdef[Bad CobrandOid]"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 400 Bad Request]"</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="bc8cf81f-9449-45d1-b79d-d8e65b2793f5"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context';
+//ns1:Error/ns1:details/ns1:e/ns1:description</path><content>invalid legacyCobrandOid: abcdef</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="legacyCobrandOid" value="abcdef"/>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?legacyWebsiteOid=abcdef[Bad WebsiteOid]" id="4a67bd95-ab32-4126-b746-019788301b54"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?legacyWebsiteOid=abcdef[Bad WebsiteOid]" mediaType="application/json" id="9a42d771-cfec-4585-930f-d7551a3f8fd0"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="9d3099ca-b6c7-4891-a444-06889188f1c0"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?legacyWebsiteOid=abcdef[Bad WebsiteOid]"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 400 Bad Request]"</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" id="71208e82-e061-49d7-9fdb-963d7c9a0477"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context';
+//ns1:Error/ns1:details/ns1:e/ns1:description</path><content>invalid legacyWebsiteOid: abcdef</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="legacyWebsiteOid" value="abcdef"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?context" disabled="true" id="5f9bfdfa-18cc-4f35-8002-9aa711511d8c"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?context" mediaType="application/json" id="b6b45567-2832-4ebf-ba94-6383f5083b84"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="context" value=" "/>
+  <con:entry key="Content-Type" value="application/json"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?legacyWebsiteName={param}" id="bec3325e-6e74-4279-b1ec-905df86b7834"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?legacyWebsiteName={param}" mediaType="application/json" id="17ad4e37-eadc-4b87-9e89-dc4e0bfe52d7"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="999ff43e-08f9-4d5d-b7b8-726e91b3cc16"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?legacyWebsiteName={param}"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" disabled="true" id="687234b2-ed23-4495-88a5-b3c819e3ca8b"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context';
+//ns1:resources/ns1:resource</path><content/><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="legacyWebsiteName" value="${#Project#legacyWebsiteName}"/>
+  <con:entry key="Accept" value="application/json"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?legacyWebsiteOid={param}" id="b1abee4c-091f-4b61-9991-7417fd8835d2"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?legacyWebsiteOid={param}" mediaType="application/json" id="b6b45567-2832-4ebf-ba94-6383f5083b84"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="${#Project#server}"/>
+  <con:entry key="legacyWebsiteOid" value="${#Project#WebsiteOid}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/context?ldapAlias={param}" id="3ad7d85f-9616-404d-9c6e-ad2b9eda7191"><con:settings/><con:config service="Context Collection Resource" resourcePath="/v1/context" methodName="Context Collection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/context?ldapAlias={param}" mediaType="application/json" id="ada58b12-cff3-4e64-b414-5e2ded255df3"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/context</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="7ad3f9a8-4d9d-4e22-b001-3a710d5dbbd3"><con:configuration><scriptText>def status = context.testCase.testSteps["GET /v1/context?ldapAlias={param}"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"</scriptText></con:configuration></con:assertion><con:assertion type="XPath Match" name="XPath Match" disabled="true" id="216c0dba-57a9-4f38-ace9-84a7cc8369ba"><con:configuration><path>declare namespace ns1='${#Project#server}/v1/context';
+//ns1:resources/ns1:resource</path><content/><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  <con:entry key="ldapAlias" value="${#Project#ldapAlias}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Authorization</con:entry><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>context</con:entry><con:entry>_id</con:entry><con:entry>ldapAlias</con:entry><con:entry>legacyCobrandOid</con:entry><con:entry>legacyWebsiteOid</con:entry><con:entry>legacyWebsiteName</con:entry><con:entry>legacyCobrandName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>#status#</con:name><con:value>[HTTP/1.1 200 OK]</con:value></con:property><con:property><con:name>legacyWebisteOid</con:name><con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></con:property></con:properties></con:testSuite><con:testSuite name="OAuth generation" id="36a3fb69-1c0b-47ed-8898-0b41dc6db241"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true" id="b3bcc64d-0822-4b97-b2f1-6b675823bc81"><con:settings/><con:testStep type="restrequest" name="POST /v1/OAuth2?" id="9f6ec0a8-0849-4223-a012-2baca079c9ad"><con:settings/><con:config service="OAuth(/v1/oauth2?)" resourcePath="/v1/oauth2?" methodName="OAuth Generation" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/OAuth2?" mediaType="application/x-www-form-urlencoded" postQueryString="true" id="398ecc9e-25eb-40f1-8b46-fcc34b21b66c"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2</con:originalUri><con:assertion type="GroovyScriptAssertion" name="Script Assertion" id="086273bf-e3be-4886-9fe1-482d8811223f"><con:configuration><scriptText>def status = context.testCase.testSteps["POST /v1/OAuth2?"].testRequest.response.responseHeaders["#status#"].toString()
+
+
+// confirm the #status# with log.info
+log.info status
+
+// Set the ID to TestCase cookie property
+context.testCase.testSuite.setPropertyValue("#status#", status)
+
+//assert that status = HTTP/1.1 204 No Content
+assert status == "[HTTP/1.1 200 OK]"
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="${#Project#grant_type}"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="client_id" value="${#Project#client_id}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script-Extract Access" id="8bf10703-ec28-42a7-a771-5da48ffe44b5"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["POST /v1/OAuth2?"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def access = json.access_token
+testRunner.testCase.testSuite.project.setPropertyValue("access_token",access)
+log.info access
+
+
+
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>#status#</con:name><con:value>null</con:value></con:property></con:properties></con:testSuite><con:testSuite id="18826f72-0352-434d-9796-483983e72b1f" name="Accounts 2.0 Test Suite" disabled="true"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="4a99f18a-eb3d-4cea-8330-5bbc84349795" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Sanity" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Environment Selection" id="7319ed4d-812a-400a-a26a-29f09718bfe8" disabled="true"><con:settings/><con:config><script>// create environment dialog
+def dialog = com.eviware.soapui.support.UISupport.createConfigurationDialog( "Enter environment as QA/STG/PRD" );
+dialog.addTextField( "ENTER environment", "Enter Environment" );
+
+// init values and show
+def map = new java.util.HashMap();
+map.put( "ENTER environment", "" );
+
+if( dialog.show( map ))
+{
+//def step = testRunner.testCase.testSuite.project
+
+// assign value
+testRunner.testCase.testSuite.project.setPropertyValue("Environment", map.get( "ENTER environment QA/STG/PRD" ))
+}
+
+else testCase.cancel( "No details entered!" )
+
+log.info "Environment setup COMPLETE = "+ map.get( "ENTER environment" )
+
+testRunner.testCase.testSuite.project.setPropertyValue("Environment", map.get( "ENTER environment" ) )
+
+log.info "The Environment is setup"</script></con:config></con:testStep><con:testStep type="groovy" name="Environment Setup" id="b8ee63ee-4e13-44b7-b495-18709a731c8b" disabled="true"><con:settings/><con:config><script>def env = testRunner.testCase.testSuite.project.getPropertyValue("Environment")
+
+// below values come from RBS via their Data team - test data excel
+
+if(env=='QA'){ //2-current, 1-savings, current - all trantype -Y
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "http://qa-oauth-service-2.tnt3-zone1.sfo1:12090")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "http://qa-accounts-service-2.tnt3-zone1.sfo1:12080")
+  log.info "QA Environment is Set"
+}
+
+if(env=='STG'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "http://stg-oauth-service-1.tnt3-zone1.aus1:12090")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "http://stg-accounts-service-1.tnt3-zone1.sfo1:12080")
+  log.info "STG Environment is set"
+}
+
+if(env=='PRD'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "http://prd-oauth-service-1.tnt3-zone1.sfo1:12090")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "http://prd-accounts-service-1.tnt3-zone1.aus1:12080")
+  log.info "PRD Environment is set"
+}
+</script></con:config></con:testStep><con:testStep type="groovy" name="Environment Setup QA/STG/PRD" id="ebc03970-19e0-4c0f-b339-c591bdc13c6e"><con:settings/><con:config><script><![CDATA[// create environment dialog
+def dialog = com.eviware.soapui.support.UISupport.createConfigurationDialog( "Enter environment as QA/STG/PRD" );
+dialog.addTextField( "ENTER environment", "Enter Environment" );
+
+// init values and show
+def map = new java.util.HashMap();
+map.put( "ENTER environment", "" );
+
+if( dialog.show( map ))
+{
+//def step = testRunner.testCase.testSuite.project
+
+// assign value
+testRunner.testCase.testSuite.project.setPropertyValue("Environment", map.get( "ENTER environment" ))
+}
+
+else testCase.cancel( "No details entered!" )
+
+log.info "Environment setup COMPLETE = "+ map.get( "ENTER environment" )
+
+testRunner.testCase.testSuite.project.setPropertyValue("Environment", map.get( "ENTER environment" ) )
+
+log.info "The Environment is setup"
+
+
+// create datacenter dialog
+def dialog1 = com.eviware.soapui.support.UISupport.createConfigurationDialog( "Enter DC as SFO/AUS/NA" );
+dialog1.addTextField( "ENTER DC", "Enter DC" );
+
+// init values and show
+def map1 = new java.util.HashMap();
+map1.put( "ENTER DC", "" );
+
+if( dialog1.show( map1 ))
+{
+//def step = testRunner.testCase.testSuite.project
+
+// assign value
+testRunner.testCase.testSuite.project.setPropertyValue("DC", map1.get( "ENTER DC" ))
+}
+
+else testCase.cancel( "No details entered!" )
+
+log.info "DC setup COMPLETE = "+ map1.get( "ENTER DC" )
+
+testRunner.testCase.testSuite.project.setPropertyValue("DC", map1.get( "ENTER DC" ) )
+
+log.info "The Data Center is setup"
+
+
+def env = testRunner.testCase.testSuite.project.getPropertyValue("Environment")
+def dc = testRunner.testCase.testSuite.project.getPropertyValue("DC")
+
+if(env=='QA' && dc=='SFO' ){ 
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts-sfo.sf-qa.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts-sfo.sf-qa.com")
+  log.info "QA Environment is Set with SFO DC"
+}
+
+
+if(env=='QA' && dc=='AUS' ){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts-aus.sf-qa.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts-aus.sf-qa.com")
+  log.info "QA Environment is Set with AUS DC"
+}
+
+if(env=='QA' && dc=='NA' ){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts.sf-qa.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts.sf-qa.com")
+  log.info "QA Environment is Set"
+}
+
+if(env=='STG' && dc=='SFO'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts-sfo.sf-stg.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts-sfo.sf-stg.com")
+  log.info "STG Environment is set with SFO DC"
+}
+
+if(env=='STG' && dc=='AUS'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts-aus.sf-stg.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts-aus.sf-stg.com")
+  log.info "STG Environment is set with AUS DC"
+}
+
+if(env=='STG' && dc=='NA'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts.sf-stg.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts.sf-stg.com")
+  log.info "STG Environment is set"
+}
+
+if(env=='PRD' && dc=='AUS'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts-aus.snapfish.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts-aus.snapfish.com")
+  log.info "PRD Environment is set with AUS DC"
+}
+
+if(env=='PRD' && dc=='SFO'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts-sfo.snapfish.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts-sfo.snapfish.com")
+  log.info "PRD Environment is set with SFO DC"
+}
+
+if(env=='PRD' && dc=='NA'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts.snapfish.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts.snapfish.com")
+  log.info "PRD Environment is set"
+}
+]]></script></con:config></con:testStep><con:testStep type="groovy" name="Environment Setup non DC" id="382a94df-3fb9-4026-9254-cfb9e5c883c5" disabled="true"><con:settings/><con:config><script>def env = testRunner.testCase.testSuite.project.getPropertyValue("Environment")
+
+// below values come from RBS via their Data team - test data excel
+
+if(env=='QA'){ //2-current, 1-savings, current - all trantype -Y
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts.sf-qa.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts.sf-qa.com")
+  log.info "QA Environment is Set"
+}
+
+if(env=='STG'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts.sf-stg.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts.sf-stg.com")
+  log.info "STG Environment is set"
+}
+
+if(env=='PRD'){
+  testRunner.testCase.testSuite.project.setPropertyValue("server", "https://accounts.snapfish.com")
+  testRunner.testCase.testSuite.project.setPropertyValue("serveraccounts", "https://accounts.snapfish.com")
+  log.info "PRD Environment is set"
+}
+</script></con:config></con:testStep><con:testStep type="restrequest" name="POST /v1/OAuth2?" id="1b4b8e9a-73b1-4cc0-87c7-a273473b08f6"><con:settings/><con:config service="OAuth(/v1/oauth2?)" resourcePath="/v1/oauth2?" methodName="OAuth Generation" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/OAuth2?" mediaType="application/x-www-form-urlencoded" postQueryString="true" id="165b448e-2a2d-47a0-b7d3-721e4d101f82"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="82aa70f4-b449-41df-8956-2f38bf5067fa" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="${#Project#grant_type}"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="client_id" value="${#Project#client_id}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Extract Access" id="8e974c6a-f630-4be0-a7f8-a8c61e1b5458"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["POST /v1/OAuth2?"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def access = json.access_token
+testRunner.testCase.testSuite.project.setPropertyValue("access_token",access)
+log.info access
+
+
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="Set EmailId" id="7531a81e-ae46-4f39-ad67-f92345e3a582"><con:settings/><con:config><script><![CDATA[def prefix = "krishsoap"
+def suffix = "@yopmail.com"
+
+// create the list of available characters  
+
+   def availChars = []  
+   ('a'..'z').each { availChars << it.toString()}
+   //('A'..'Z').each { availChars << it.toString()}  
+   // even it out to about the same odds of getting a char or a number  
+   //3.times { (1..9).each { availChars << it.toString() } }  
+
+   def generateRandomString = { length ->   
+   def max = availChars.size      
+   def rnd = new Random()  
+   def sb = new StringBuilder()  
+   length.times { sb.append(availChars[rnd.nextInt(max)]) }  
+   sb.toString()  
+   }
+
+def email = prefix + generateRandomString(6) + suffix
+
+//testRunner.testCase.testSuite.project.addProperty("c_msisdn")
+testRunner.testCase.testSuite.project.setPropertyValue("primaryEmail", email)
+log.info "email = " + email
+
+
+]]></script></con:config></con:testStep><con:testStep type="restrequest" name="POST /v1/account" id="c34076f3-f9a6-45c1-9b2b-e1b071ccdfa4"><con:settings/><con:config service="Registration" resourcePath="/v1/account" methodName="Account" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/account" id="0e7d4c62-0a7b-41fa-89ed-2f008a8110dc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="Authorization" value="OAuth ${#Project#access_token}"/>
+  &lt;con:entry key="Accept" value="application/json"/>
+  &lt;con:entry key="Content-Type" value="application/json"/>
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{
+  "password" : "sfqatest",
+  "globalInfo" : {
+    "core" : {
+        "firstName" : "Krishnam",
+        "lastName" : "Madduri",
+         "countryCode" : "CA",
+        "primaryEmail" : "${#Project#primaryEmail}"
+    }
+  }
+}</con:request><con:originalUri>http://qa-oauth-service-2.tnt3-zone1.sfo1/v1/account</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="6365de86-2e63-4fcc-b4a5-5de088a9ea3e" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Login" id="6a2c58aa-e752-484e-a554-5cc1bf90c915"><con:settings/><con:config service="OAuth(/v1/oauth2?)" resourcePath="/v1/oauth2?" methodName="OAuth Generation" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Login" id="d22f756f-23f2-4654-b774-af1da60ef3ea" mediaType="application/x-www-form-urlencoded" postQueryString="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Content-Type" value="application/x-www-form-urlencoded" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://qa-oauth-service-2.tnt3-zone1.sfo1/v1/oauth2</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="e516a964-c676-4bcc-b582-cdeb78e2bdb8" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="7d56c344-2b8e-4855-b6a5-98817e483e9a" name="Script Assertion"><con:configuration><scriptText>//imports
+import groovy.json.JsonSlurper
+ 
+//grab the response
+def ResponseMessage = messageExchange.response.responseContent
+//define a JsonSlurper
+def jsonSlurper = new JsonSlurper().parseText(ResponseMessage)
+ 
+//verify the slurper isn't empty
+assert !(jsonSlurper.isEmpty())
+ 
+//verify the Id, Type and Guid aren't null
+assert jsonSlurper.access_token != null
+assert jsonSlurper.namespace_userid != null
+assert jsonSlurper.upload_end_point != null</scriptText></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="5fe4659a-d5af-4bdc-a3d0-b7609b703cb0" name="response"><con:configuration/></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="username" value="${#Project#primaryEmail}"/>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="password"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="client_id" value="${#Project#client_id}"/>
+  <con:entry key="password" value="${#Project#password}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry><con:entry>username</con:entry><con:entry/></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="passwordToken Extract" id="89a5df25-00aa-444d-aaa2-2a624e8ef3da"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["Login"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def pwdtoken = json.access_token
+testRunner.testCase.testSuite.project.setPropertyValue("pwdtoken",pwdtoken)
+log.info pwdtoken
+
+
+
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="accountId extractor" id="b17f18f7-aa2b-4432-9e77-6ad471d4ebc4"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["Login"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def accountId = json.userid
+testRunner.testCase.testSuite.project.setPropertyValue("accountId",accountId)
+log.info accountId
+
+
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/account/accountId" id="7d3d1b49-b34e-427c-9cf5-21ebe16d8226"><con:settings/><con:config service="Accounts" resourcePath="/v1/account/{accountId}" methodName="GET account" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/account/accountId" id="9d51ed8a-aedb-438b-9f6f-f961597bf6a8" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1725904050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="c822ff4f-6d41-41c5-afbc-8e075933d751" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="0848a9b7-824a-4218-bb0c-a0bae9a9fe4d" name="Script Assertion"><con:configuration><scriptText>//imports
+
+import groovy.json.JsonSlurper
+ 
+//grab the response
+def ResponseMessage = messageExchange.response.responseContent
+//define a JsonSlurper
+def jsonSlurper = new JsonSlurper().parseText(ResponseMessage)
+
+//verify the slurper isn't empty
+assert !(jsonSlurper.isEmpty())
+ 
+//verify the Id, Type and Guid aren't null
+assert jsonSlurper.accountId != null
+//assert jsonSlurper.accountId == "${#Project#accountId}"
+assert jsonSlurper.globalInfo.core.primaryEmail != null //"${#Project#primaryEmail}"
+
+
+</scriptText></con:configuration></con:assertion><con:assertion type="Simple Contains" id="a14879dd-5c24-40e6-91f1-d0df4ba4bb83" name="Contains"><con:configuration><token>"${#Project#accountId}"</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="553ee232-131e-4bbe-811f-7104a2cce3ce" name="JsonPath Match"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="fc5b2a77-b695-4283-992c-84ce20bdf1c9" name="primaryEmail jsonPath Match"><con:configuration><path>$.globalInfo.core.primaryEmail</path><content>${#Project#primaryEmail}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Accept</con:entry><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="PUT /v1/account/accountId" id="caa847c2-37cf-4b08-b06d-3be86b1b5f42"><con:settings/><con:config service="Accounts" resourcePath="/v1/account/{accountId}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="PUT /v1/account/accountId" id="1a945d36-87f6-4ed9-b3b8-6a3a59edf259" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{
+  "password" : "${#Project#password}",
+  "globalInfo" : {
+    "core" : {
+        "firstName" : "Krishnam",
+        "lastName" : "Raju",
+         "countryCode" : "CA",
+        "primaryEmail" : "${#Project#primaryEmail}"
+    }
+  }
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="c8eb17b0-f95e-4fb4-aabd-8c0f4edf1a82" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Accept</con:entry><con:entry>Content-Type</con:entry><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/account/accountId[Updated one]" id="adce0ae0-9d53-43b5-9d12-487937659ea0"><con:settings/><con:config service="Accounts" resourcePath="/v1/account/{accountId}" methodName="GET account" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/account/accountId[Updated one]" id="9d51ed8a-aedb-438b-9f6f-f961597bf6a8" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1725913050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="74e0af62-27e0-444a-b114-b33786502e4a" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="77498ee0-556a-46f2-a000-3667c9fc3135" name="JsonPath Match"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="f901e9dd-dd11-4ab7-b38c-dfed21cd5e17" name="JsonPath Match 1"><con:configuration><path>$.globalInfo.core.lastName</path><content>Raju</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="Accept" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>Accept</con:entry><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/lookup/sfo/accountId" id="483d303c-6703-4579-b29b-d73136a5a670"><con:settings/><con:config service="Accounts Lookup" resourcePath="/v1/lookup/sfo/{accountId}" methodName="Account Lookups" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/lookup/sfo/accountId" id="711c9960-b765-4616-b006-cab49f749b38" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#access_token}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/lookup/sfo/1725914050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="553ebe91-1ba8-4f85-9dd8-b1309cef6a39" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="8b1543d7-31a2-43ea-9f4a-ed7146d73183" name="JsonPath Match"><con:configuration><path>$.lookups[*].lookup[*]</path><content>[${#Project#primaryEmail}]</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="54fabee9-26a9-4f70-a243-630f714cd124" name="JsonPath Match 1"><con:configuration><path>$.lookups[*].type[*]</path><content>[email]</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="6c0e4533-2a48-4fca-af1f-f4762ee4b878" name="JsonPath Match 2"><con:configuration><path>$.acctOid</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="63df28cb-da1f-4a98-81cc-5b12c9692eed" name="JsonPath Match 3"><con:configuration><path>$.isExits</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/lookup/aus/accountId" id="2f700d2b-0dd2-4903-93e3-3cdf7f45f2f3"><con:settings/><con:config service="Accounts Lookup" resourcePath="/v1/lookup/aus/{accountId}" methodName="Account Lookups" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/lookup/aus/accountId" id="711c9960-b765-4616-b006-cab49f749b38" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#access_token}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/lookup/sfo/1725914050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="553ebe91-1ba8-4f85-9dd8-b1309cef6a39" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="8b1543d7-31a2-43ea-9f4a-ed7146d73183" name="JsonPath Match"><con:configuration><path>$.lookups[*].lookup[*]</path><content>[${#Project#primaryEmail}]</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="54fabee9-26a9-4f70-a243-630f714cd124" name="JsonPath Match 1"><con:configuration><path>$.lookups[*].type[*]</path><content>[email]</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="6c0e4533-2a48-4fca-af1f-f4762ee4b878" name="JsonPath Match 2"><con:configuration><path>$.acctOid</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="63df28cb-da1f-4a98-81cc-5b12c9692eed" name="JsonPath Match 3"><con:configuration><path>$.isExits</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="POST /v1/account/accountId/address" id="0eebf3c5-1f2d-4745-a08e-f02b6a12e393"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address" methodName="POST" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/account/accountId/address" id="eb99c274-4846-4050-a0aa-c3dea72e5c06" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{ 
+"companyName" : "testCompany", 
+"line1" : "testStreet", 
+"line2" : "shippingaddr", 
+"county" : "testCounty", 
+"city" : "testCity", 
+"state" : "testState", 
+"zip" : "94107", 
+"country" : "US",
+ "phones" : ["1234567890"],
+ "ims" : [""], 
+"emails" : ["test.fitnesse@fitnessemail.com"],
+ "tags" : ["self"] 
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1725917050/address</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="73c07ecc-2fb2-4a84-8f61-d4a5b8ea0fe1" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="addressId extractor" id="d1834e16-bd6f-4ab9-a94e-86dfadc47db9"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["POST /v1/account/accountId/address"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def addressId = json._id
+testRunner.testCase.testSuite.project.setPropertyValue("addressId",addressId.toString())
+log.info addressId
+//slurperresponse.id.toString()</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/account/accountId/address/addressId" id="7516e1b6-a630-45d7-a316-4b9c8509c535"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address/{addressId}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/account/accountId/address/addressId" id="73b808b6-c5c6-4854-ab93-4dd6e6638559" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="fb06a177-b163-4a07-8964-3afff1bfa655" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="223214c9-06de-476f-8e21-b0c560207734" name="addressId JsonPath Match"><con:configuration><path>$._id</path><content>${#Project#addressId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="8d87d82a-6784-4a15-b7cb-236c3dc41e8c" name="accountId JsonPath Match 1"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="addressId" value="${#Project#addressId}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/account/accountId/address" id="ae94b392-8e18-4952-bc81-fb58c1a1c221"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/account/accountId/address" id="3d413066-f771-4192-bc4a-3e44ab87ed81" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="Authorization" value="OAuth ${#Project#pwdtoken}"/>
+  &lt;con:entry key="Accept" value="application/json"/>
+  &lt;con:entry key="Content-Type" value="application/json"/>
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728792050/address</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="445937f8-d490-43e1-936f-73b65f2b74fc" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="8697b18d-9649-40b5-80c0-51756cba27d8" name="JsonPath Match"><con:configuration><path>$.resources[*].resource[*].accountId</path><content>[${#Project#accountId}]</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="111e5e64-ed48-4784-b39e-ed6b6408fe79" name="addressIdJsonPath Match 1"><con:configuration><path>$.resources[*].resource[*]._id</path><content>[${#Project#addressId}]</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="POST /v1/account/accountId/address/addressId/tags/foo" id="3be5ce75-2435-4b58-a7e0-732a912e9f7e"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address/{addressId}/tags/{foo}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/account/accountId/address/addressId/tags/foo" id="91f5bf7d-ce06-4bfa-9bf8-38a1e04f40c6" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728796050/address/2229218050/tags/foo</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="ae0a0262-f76f-4688-b350-aafc121a8952" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="addressId" value="${#Project#addressId}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="POST /v1/account/accountId/address/addressId/replace" id="093f24b9-4163-4d3b-87f2-04bbb910fd1b"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address/{addressId}/replace" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/account/accountId/address/addressId/replace" id="27603e36-ee5b-4569-b6a5-8af300700e16" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{
+  "companyName": "testAnotherCompany",
+  "line1": "testLine1",
+  "line2": "testLine2",
+  "line3": "testLine3",
+  "county": "testCounty",
+  "city": "testCity",
+  "state": "testState",
+  "zip": "500005",
+  "country": "US",
+  "firstName": "testFirstName",
+  "lastName": "testLastName",
+  "phones": [
+    "1234567890"
+  ],
+  "ims": [
+    ""
+  ],
+  "emails": [
+    "test.fitnesse@testmail.com",
+    "test.fitnesse@fitnessemail.com"
+  ],
+  "tags": [
+    "testTag1",
+    "testTag2",
+    "testTag3"
+  ]
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050/replace</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="2d010c41-b43a-4085-81fe-eda8f860da4a" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="178f2415-b347-4b3d-b6b3-2b70d21578d4" name="JsonPath Match"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="addressId" value="${#Project#addressId}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Updated addressId extractor" id="e619e372-faab-4d60-b7d4-2ed323c1b1ba"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["POST /v1/account/accountId/address/addressId/replace"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def addressId_new = json._id
+testRunner.testCase.testSuite.project.setPropertyValue("addressId_new",addressId_new.toString())
+log.info addressId_new
+//slurperresponse.id.toString()</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/account/accountId/address/addressId[Updated Address]" id="82c82670-0084-4afc-bbba-a08e4f24fb4d"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address/{addressId}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/account/accountId/address/addressId[Updated Address]" id="73b808b6-c5c6-4854-ab93-4dd6e6638559" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="fb06a177-b163-4a07-8964-3afff1bfa655" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="223214c9-06de-476f-8e21-b0c560207734" name="addressId JsonPath Match"><con:configuration><path>$._id</path><content>${#Project#addressId_new}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="8d87d82a-6784-4a15-b7cb-236c3dc41e8c" name="accountId JsonPath Match 1"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="addressId" value="${#Project#addressId_new}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="DELETE /v1/account/{accountId}/address/{addressId}" id="406760f2-d181-4d6d-a5f0-fac9da28b7b1"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address/{addressId}" methodName="DELETE address" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="DELETE /v1/account/{accountId}/address/{addressId}" id="09f2b9fd-ecfa-4227-8420-f5722111bc66" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730696050/address/2230412050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="a41176b3-c9d6-4ca8-97fb-d067726d7aee" name="Valid HTTP Status Codes"><con:configuration><codes>204</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="addressId" value="${#Project#addressId_new}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET /v1/account/accountId/address/addressId[Deleted Address]" id="95cce7fa-b2ef-4777-95dc-eedaeb45ffaf"><con:settings/><con:config service="Address" resourcePath="/v1/account/{accountId}/address/{addressId}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /v1/account/accountId/address/addressId[Deleted Address]" id="73b808b6-c5c6-4854-ab93-4dd6e6638559" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1728793050/address/2229206050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="fb06a177-b163-4a07-8964-3afff1bfa655" name="Valid HTTP Status Codes"><con:configuration><codes>410</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="223214c9-06de-476f-8e21-b0c560207734" name="addressId JsonPath Match" disabled="true"><con:configuration><path>$._id</path><content>${#Project#addressId_new}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="8d87d82a-6784-4a15-b7cb-236c3dc41e8c" name="accountId JsonPath Match 1" disabled="true"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="addressId" value="${#Project#addressId_new}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="POST /v1/account/{accountId}/payment" id="383b5331-dca8-4a0c-b403-88104153eaeb"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment" methodName="POST Payment" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST /v1/account/{accountId}/payment" id="e2e1fc3a-d89a-4bd6-bf4e-8f1df8f4ebbe" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  &lt;con:entry key="Authorization" value="OAuth ${#Project#pwdtoken}"/>
+  &lt;con:entry key="Accept" value="application/json"/>
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{
+   "accountId" : "${#Project#accountId}",
+   "creditCard" : {
+        "expireYear" : 2020,
+        "expireMonth" : 10,
+        "type" : "VIS",
+        "nameOnCard" : "Fitness Test",
+        "panFirst6" : "411111",
+        "panLast4" : "1111",
+        "panLength" : 16
+    },
+    "tokens" : {
+        "Monolith" : {
+            "processor" : "Monolith",
+            "token" : "test_token"
+        }
+   },
+  "line1" : "line1",
+  "city" : "testCity",
+  "state" : "testState",
+  "zip" : "500005",
+  "country" : "US" 
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730698050/payment</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="492760b7-983d-4de5-834d-c81d328ae7e1" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="b6afabbc-d9e5-4fc6-8b8c-daf3aeda014b" name="JsonPath Match" disabled="true"><con:configuration><path>$.tokens.Monolith.processor</path><content>Monolith</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="007fb220-909e-4dd9-bf20-961c1e9309f7" name="JsonPath Match 1"><con:configuration><path>$.accountId</path><content>${#Project#accountId}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="paymentId extractor" id="8bc24524-045f-452a-a0f0-68c7e6bad2b9"><con:settings/><con:config><script>import net.sf.json.groovy.*
+
+//Get the response from the GET registrations call
+def responseMessage = testRunner.testCase.testSteps["POST /v1/account/{accountId}/payment"].testRequest.response.contentAsString
+def json = new JsonSlurper().parseText(responseMessage)
+def paymentId = json._id
+testRunner.testCase.testSuite.project.setPropertyValue("paymentId",paymentId.toString())
+log.info paymentId
+//slurperresponse.id.toString()</script></con:config></con:testStep><con:testStep type="restrequest" name="POST Payment Metadata" id="65e060c5-1eaf-45bd-893a-3a5657f90b42"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment/{paymentId}/metadata/foo" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST Payment Metadata" id="40d75a47-4e9d-487a-a62a-0e39282a6d1d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730700050/payment/449105050/metadata/foo</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="693dba4e-983e-4243-86ea-eba60d285830" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="d8ccfdbe-acca-4ada-b32a-31b88fa652e7" name="JsonPath Match"><con:configuration><path>$.metadata.foo</path><content>bar </content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="paymentId" value="${#Project#paymentId}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET PaymentCollection" id="ea8832b3-eaf4-4544-8dc6-9748ba49c10d"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment" methodName="GET PaymentCollection" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET PaymentCollection" id="c60196f0-6617-4048-97f4-15da22c9b270" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730703050/payment</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="b246569a-7042-4674-af96-f796c6e92b35" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET PaymentInstanceResource" id="2dd31351-22fc-45cf-824c-f878da3bd3af"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment/{paymentId}" methodName="GET PaymentInstanceResource" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET PaymentInstanceResource" id="c60196f0-6617-4048-97f4-15da22c9b270" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730703050/payment/449109050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="7b3b0f45-7911-46c2-b204-35f701fa8e1d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="d073899b-4d6e-4b9d-a766-f0a8fcbc84e6" name="JsonPath Match"><con:configuration><path>$.deleted</path><content>false</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="paymentId" value="${#Project#paymentId}"/>
+</con:parameters><con:parameterOrder><con:entry>accountId</con:entry><con:entry>paymentId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="DELETE Payment" id="6f64e93f-e83d-446d-b1d3-89a0811cc733"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment/{paymentId}" methodName="DELETE Payment" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="DELETE Payment" id="767db3f0-df63-4a70-ac19-a2fad13b1f3b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="b61ee805-dcd9-4669-ab55-9c7dac73ee79" name="Valid HTTP Status Codes"><con:configuration><codes>204</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="paymentId" value="${#Project#paymentId}"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Delay" id="c58eba2d-a320-4614-93d3-4be3760e91fc"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="restrequest" name="GET PaymentInstanceResource[Deleted]" id="b3ae152c-878d-4665-9f12-71afe8e2898a"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment/{paymentId}" methodName="GET PaymentInstanceResource" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET PaymentInstanceResource[Deleted]" id="c60196f0-6617-4048-97f4-15da22c9b270" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730703050/payment/449109050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="7b3b0f45-7911-46c2-b204-35f701fa8e1d" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="c35dfb3e-a9f2-40a0-a591-0ce8b501b89c" name="JsonPath Match" disabled="true"><con:configuration><path>$.deleted</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="paymentId" value="${#Project#paymentId}"/>
+</con:parameters><con:parameterOrder><con:entry>accountId</con:entry><con:entry>paymentId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="POST Paypal" id="8006dca3-9d1c-4cd7-947a-5744db29582a"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment" methodName="POST PaymentPaypal" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST Paypal" id="e2e1fc3a-d89a-4bd6-bf4e-8f1df8f4ebbe" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{ 
+"accountId" : "${#Project#accountId}", 
+"paypal" : { 
+   "payerId": "somePayerId",
+    "emailId": "someemail@email.com",
+     "billingAgreementId": "some-agreementId", 
+     "paypalOrderId": "some-orderid", 
+     "isRefTransaction": "0" 
+     },
+  "tokens" : { 
+       "PayPal" : { 
+           "processor" : "PayPal",
+            "token" : "foo"
+            } 
+         }
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730708050/payment</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="50a78dcc-e7cf-4c55-89e3-62fb774d4a4b" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="accountId" value="${#Project#accountId}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>accountId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="GET payPal Payment" id="be2006dd-019f-4593-9de5-e5c86e5a6a50"><con:settings/><con:config service="Payments" resourcePath="/v1/account/{accountId}/payment/{paymentId}" methodName="GET PaymentInstanceResource" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET payPal Payment" id="c60196f0-6617-4048-97f4-15da22c9b270" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request/><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/account/1730708050/payment/449114050</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3f7289bb-2e20-4e8a-b9d9-01e220ba2446" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="accountId" value="${#Project#accountId}"/>
+  <con:entry key="paymentId" value="${#Project#paymentId}"/>
+</con:parameters><con:parameterOrder><con:entry>accountId</con:entry><con:entry>paymentId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Update Password" id="7d12f9fa-47c4-4899-a33a-b158503e4c6c"><con:settings/><con:config service="Accounts" resourcePath="/v1/updatePassword" methodName="UpdatePassword" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Update Password" id="3be5fc0f-70e7-4048-b499-1b11c70cb030" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{ 
+
+     "currentPassword" : "${#Project#password}",
+     "updatePassword" : "mypassword"
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/updatePassword</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="55e84837-c0c9-4178-a4c6-d5ee479e506c" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="22a3d983-77c2-4fdc-81a5-7725287e612f" name="JsonPath Match"><con:configuration><path>$.status</path><content>ok</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Update Password(Original)" id="28d9635c-09c1-4c9d-bfa6-48ff032f317d"><con:settings/><con:config service="Accounts" resourcePath="/v1/updatePassword" methodName="UpdatePassword" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Update Password(Original)" id="3be5fc0f-70e7-4048-b499-1b11c70cb030" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="OAuth ${#Project#pwdtoken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#Project#serveraccounts}</con:endpoint><con:request>{ 
+
+     "currentPassword" : "mypassword",
+     "updatePassword" : "${#Project#password}"
+}</con:request><con:originalUri>http://qa-accounts-service-2.tnt3-zone1.sfo1/v1/updatePassword</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="55e84837-c0c9-4178-a4c6-d5ee479e506c" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="22a3d983-77c2-4fdc-81a5-7725287e612f" name="JsonPath Match"><con:configuration><path>$.status</path><content>ok</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:loadTest id="f0244652-898d-4e68-b307-83c3e4051bec" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:testCase id="79ccea0e-d6ff-48b7-bb80-cab0b0baf825" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OAuth" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="[+] Generation of OAuth" id="7c1909c2-7820-438c-a717-7bda55fe399e"><con:settings/><con:config service="OAuth(/v1/oauth2?)" resourcePath="/v1/oauth2?" methodName="OAuth Generation" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="[+] Generation of OAuth" mediaType="application/x-www-form-urlencoded" postQueryString="true" id="165b448e-2a2d-47a0-b7d3-721e4d101f82"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="d5e3be0f-c8eb-4737-8d20-157c3d87bd32" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="${#Project#grant_type}"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="client_id" value="${#Project#client_id}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="[-] OAuth without clientId" id="39d1a6b7-bb02-4f16-a2a7-135ca14db7c0"><con:settings/><con:config service="OAuth(/v1/oauth2?)" resourcePath="/v1/oauth2?" methodName="OAuth Generation" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="[-] OAuth without clientId" mediaType="application/x-www-form-urlencoded" postQueryString="true" id="165b448e-2a2d-47a0-b7d3-721e4d101f82"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#server}</con:endpoint><con:request/><con:originalUri>http://accounts-sf-qa.tnt3-zone1.sfo1/v1/oauth2</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="9feae82b-e7c4-4b4c-81c8-f7c38b7544d5" name="Valid HTTP Status Codes"><con:configuration><codes>400</codes></con:configuration></con:assertion><con:assertion type="JsonPath Match" id="aa15c089-be54-4201-9c66-c6f3b000f0d6" name="JsonPath Match"><con:configuration><path>$.error_description</path><content>Mandatory parameter client_id is missing</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="client_secret" value="${#Project#client_secret}"/>
+  <con:entry key="grant_type" value="${#Project#grant_type}"/>
+  <con:entry key="context" value="${#Project#context}"/>
+  <con:entry key="Content-Type" value="application/json"/>
+</con:parameters><con:parameterOrder><con:entry>grant_type</con:entry><con:entry>client_id</con:entry><con:entry>client_secret</con:entry><con:entry>context</con:entry><con:entry>Content-Type</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:loadTest id="a3189952-e570-4522-ae7d-bea02077b4df" name="LoadTest 1"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>30</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:statisticsLogFolder/><con:statisticsLogInterval>0</con:statisticsLogInterval><con:logStatisticsOnThreadChange>false</con:logStatisticsOnThreadChange><con:cancelOnReachedLimit>false</con:cancelOnReachedLimit><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval><con:updateStatisticsPerTestStep>false</con:updateStatisticsPerTestStep></con:loadTest><con:properties/></con:testCase><con:testCase id="bebec00c-3f3e-4143-a371-8f030d3a2a42" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Registration" searchProperties="true"><con:settings/><con:properties/></con:testCase><con:properties><con:property><con:name>#status#</con:name><con:value>[HTTP/1.1 200 OK]</con:value></con:property></con:properties></con:testSuite><con:properties><con:property><con:name>server</con:name><con:value>https://accounts-sfo.sf-stg.com</con:value></con:property><con:property><con:name>grant_type</con:name><con:value>client_credentials</con:value></con:property><con:property><con:name>client_id</con:name><con:value>dac9e38c76b111e4925e68b599f571ed</con:value></con:property><con:property><con:name>client_secret</con:name><con:value>e61f818876b111e4994b68b599f571ed</con:value></con:property><con:property><con:name>context</con:name><con:value>/hp/sf/sf-us/snapfish-us</con:value></con:property><con:property><con:name>access_token</con:name><con:value>sf_v1a-stg;JM/fAxeczJQ90KlRAmBfvF7sTVzO66wcuQn7P4HxVLMHhRHh5XHn9U0sKiazBDKpd8ZTfS5KA2lzkik02CePprRzjsvHhXlgGiQ6BzNZMNhXsCtoc2Vs/l3+zDWBMfUdHNe4xlJQW2p72jHeI+7E846kl3pdaPmdhB+wszp9pGI=VsOWbew0oLT1g7DlejMzziDn/MJj/m36B+aV+eYpdnDpJ82Q1t1D72g/JEv/CEdV2R1cF9tdOtwoxSzlRdaC1Z/u+L3L0jkQDAoBLwZNremFQgjRqUECQ7JQpRgo5X43l7BQXiKbQnBcy7z4RTL8BJ/AcOQf/AUMg8aYPLbxkjw=</con:value></con:property><con:property><con:name>ldapAlias</con:name><con:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">hp_root</con:value></con:property><con:property><con:name>_id</con:name><con:value>/hp</con:value></con:property><con:property><con:name>legacyWebsiteName</con:name><con:value>hpc-ink-de</con:value></con:property><con:property><con:name>serveraccounts</con:name><con:value>https://accounts-sfo.sf-stg.com</con:value></con:property><con:property><con:name>primaryEmail</con:name><con:value>krishsoaphmgpge@yopmail.com</con:value></con:property><con:property><con:name>password</con:name><con:value>sfqatest</con:value></con:property><con:property><con:name>serv</con:name><con:value>https://accounts.sf-stg.com</con:value></con:property><con:property><con:name>accountId</con:name><con:value>555814050</con:value></con:property><con:property><con:name>pwdtoken</con:name><con:value>sf_v1a-stg;YJ2ws2Gx6daKJf8UWLIUdaPmb7qSiv5ZhqLXphscES8k62Ch4xd/mmS6755/Z2u31iPrjhKbbf5M7iSAqB1iBIxDVSTf9YPmhqFkSPFHUhtgsl0SgRgWJ8W7oGz35FVcPglzuhX4e3PU03cxljuzstyPB8aaqsPcDkbHTA07oso=DErZSPzyAxpGoHgoDmT75vfm96/FcXsGTwjVnEYIJGqyPZaxosjXgK2/+23Pf+ZX/qjiP6zmB3XEk3CmpkNT3xJi2zFPMXpmVKLj4azm4qA8qOEtGg0ZCWLpD1gwER4Wdm3qUd9Tlsp5ZieCNw/iOsArLEvt3xv108V5RuUfxwM=IFuLQ5XgJXKt4oIGDnvrasoSOsZvIUHPRDZsvpWaFPIN222Oz1/O49yZiU4Tw/aEZ1KrXE269UVjz0Cr1z2xOcT8VqVYe+XCqE1EpjZeTUH8iOyf8TXxF9vd36Awrm8ijnhV31KS/VEJZjZkBnI7pH8loL7Q0zc9qBSGvlbrpxA=</con:value></con:property><con:property><con:name>addressId</con:name><con:value>4061568050</con:value></con:property><con:property><con:name>addressId_new</con:name><con:value>4061570050</con:value></con:property><con:property><con:name>paymentId</con:name><con:value>1537508050</con:value></con:property><con:property><con:name>Environment</con:name><con:value>STG</con:value></con:property><con:property><con:name>DC</con:name><con:value>SFO</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
